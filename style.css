@@ -628,7 +628,8 @@ padding: 80px 80px 30px 80px;
    }
 
    /* プロダクト */
-   #porduct {
+   #product {
+    margin: 20px;
     background-color: #fafafa;
     padding-top: 10px;
    }
@@ -768,7 +769,8 @@ padding: 80px 80px 30px 80px;
     margin: 10px 0 0 0;
    }
 
-   /* COMPANY */
+   /* 会社概要 */
+   
    #company {
     margin: 0 20px 0 20px;
    }
@@ -794,7 +796,35 @@ padding: 80px 80px 30px 80px;
    }
 
    .tableheader {
-    
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #2710d5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 50px;
+   }
+
+   .cell {
+    padding: 20px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+   }
+
+   .cell-first {
+    padding: 20px;
+    border-bottom-color: #ececec;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-top-color: #ececec;
+    border-top-width: 1px;
+    border-top-style: solid;
+   }
+
+   #company > iframe {
+    width: 100%;
+    height: 240px;
+    margin: 40px 0 0 0;
    }
  }
 
